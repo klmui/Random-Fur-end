@@ -5,5 +5,11 @@ const {
     getRandomCat
 } = require('./APIs/cats')
 
-app.get('/todos', getRandomCat);
+app.get('/', getRandomCat);
 exports.api = functions.https.onRequest(app);
+
+// exports.helloWorld = functions.https.onRequest((request, response) => {
+//  response.send("Hello from Firebase!");
+// });
+
+
