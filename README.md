@@ -26,7 +26,7 @@ Make a GET request to this link: https://us-central1-random-fur-end.cloudfunctio
 
     * Copy the result
 
-3. Go to the Postman app and submit a POST request to https://us-central1-random-fur-end.cloudfunctions.net/api
+3. Go to the Postman app and submit a POST request to https://us-central1-random-fur-end.cloudfunctions.net/api using a JSON format with "cat" as the key and the result as the value
 
 # Technologies Used
 - Firebase Functions
