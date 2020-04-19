@@ -1,5 +1,6 @@
 # Random Fur-end
 - By: Kenneth (Kenny) Mui
+- Feel free to email me if you have any questions at klmui@wisc.edu
 - Credits for the ASCII cats go to: https://www.asciiart.eu/animals/cats and corresponding designers
 
 # Getting a random ASCII Cat
