@@ -11,9 +11,9 @@ const {
 app.get('/', getRandomCat);
 
 // POST a cat
-app.post('/', (req, res) => {
+app.post('/', (request, response) => {
   const newCat = {
-    cat: req.body.cat
+    cat: request.body.cat
   }
   db
     .collection('cats')
@@ -21,18 +21,18 @@ app.post('/', (req, res) => {
     .then((doc) => {
         const responseCatItem = newCat;
         responseCatItem.id = doc.id;
-        return res.json(responseCatItem);
+        return response.json(responseCatItem);
     })
     .catch((err) => {
-      res.status(500).json({ error: 'Something went wrong' });
+      response.status(500).json({ error: 'Something went wrong' });
       console.log(err);
     });
 });
 
 exports.api = functions.https.onRequest(app);
 
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//  response.send("Hello from Firebase!");
+// exports.helloWorld = functions.https.onrequest((requestuest, responseponse) => {
+//  responseponse.send("Hello from Firebase!");
 // });
 
 
