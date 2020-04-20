@@ -9,7 +9,7 @@ Make a GET request to this link: https://us-central1-random-fur-end.cloudfunctio
 # Posting an ASCII cat
 1. Design your ASCII cat
 
-2. Go to https://regex101.com/
+2. Go to https://regex101.com/ to enter 3 different regular expressions so Postman can send your ASCII cat
 
     * Enter "\\\\" into the "Regular Expression" field
 
@@ -25,6 +25,12 @@ Make a GET request to this link: https://us-central1-random-fur-end.cloudfunctio
 
     * Paste your result into the text field
 
+    * Copy the result
+    
+    * Erase the current regular expression and enter '"'
+    
+    * Erase the current substitution and enter '\"'
+    
     * Copy the result
 
 3. Go to the Postman app and submit a POST request to https://us-central1-random-fur-end.cloudfunctions.net/api using a JSON format with "cat" as the key and the result as the value
