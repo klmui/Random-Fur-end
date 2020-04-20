@@ -31,7 +31,7 @@ Make a GET request to this link: https://us-central1-random-fur-end.cloudfunctio
     
     * Erase the current regular expression and enter '"'
     
-    * Erase the current substitution and enter '\"'
+    * Erase the current substitution and enter '\\"'
     
     * Copy the result
 
