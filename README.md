@@ -10,7 +10,9 @@ Make a GET request to this link: https://us-central1-random-fur-end.cloudfunctio
 1. Design your ASCII cat
 
 2. Go to https://regex101.com/ to enter 3 different regular expressions so Postman can send your ASCII cat
-
+      
+    * Change the flag in the "Regular Expression" field from "gm" to "g"  
+      
     * Enter "\\\\" into the "Regular Expression" field
 
     * Paste your ASCII cat into the text field
