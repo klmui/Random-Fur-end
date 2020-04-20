@@ -17,7 +17,7 @@ Make a GET request to this link: https://us-central1-random-fur-end.cloudfunctio
 
     * Paste your ASCII cat into the text field
 
-    * Enter "\\\\\\" into the "Substitution" field
+    * Enter "\\\\\\\\" into the "Substitution" field
 
     * Copy the result
 
